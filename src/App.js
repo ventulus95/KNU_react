@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Header.js';
 import DataTable from "./DataTable";
-import ScatterChartBox from "./ScatterChartBox";
+// import ScatterChartBox from "./ScatterChartBox";
 import RadarChartBox from "./RadarChartBox";
 
 
@@ -39,7 +39,6 @@ function App() {
     <div className="App">
      <Header/>
      <DataTable data={data}/>
-     <ScatterChartBox data={data}/>
      <RadarChartBox data={data}/>
     </div>
   );
