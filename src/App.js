@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header.js';
+import Header from "./Header";
 import DataTable from "./DataTable";
 // import ScatterChartBox from "./ScatterChartBox";
 // import RadarChartBox from "./RadarChartBox";
@@ -37,8 +37,7 @@ const data = [
 const App = () => {
   return (
     <div className="App">
-     <Header/>
-
+      <Header/>
     </div>
   );
 }
