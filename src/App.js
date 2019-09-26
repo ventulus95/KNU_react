@@ -38,8 +38,7 @@ function App() {
   return (
     <div className="App">
      <Header/>
-     <DataTable data={data}/>
-     <RadarChartBox data={data}/>
+
     </div>
   );
 }
