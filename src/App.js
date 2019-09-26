@@ -1,10 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header';
+import Header from './Header.js';
 import DataTable from "./DataTable";
 // import ScatterChartBox from "./ScatterChartBox";
-import RadarChartBox from "./RadarChartBox";
+// import RadarChartBox from "./RadarChartBox";
 
 
 const  createData = (name, korean, english, math, physical, music, art) => {
