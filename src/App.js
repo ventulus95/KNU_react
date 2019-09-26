@@ -34,7 +34,7 @@ const data = [
   createData('기덕', 98, 83, 91, 90, 91, 94)
 ]
 
-function App() {
+const App = () => {
   return (
     <div className="App">
      <Header/>
